@@ -1,0 +1,33 @@
+#include<stdio.h>
+//#include<stdlib.h>
+
+int main()
+{
+	float S1, S2, S3, S4, S5,Total,Percentage;
+	
+	printf("Enter the marks obtained in Subject 1:"); //taking input from the user
+	scanf("%f", &S1);
+	
+	printf("Enter the marks obtained in Subject 2:");
+	scanf("%f", &S2);
+	
+	printf("Enter the marks obtained in Subject 3:");
+	scanf("%f", &S3);
+	
+	printf("Enter the marks obtained in Subject 4:");
+	scanf("%f", &S4);
+	
+	printf("Enter the marks obtained in Subject 5:");
+	scanf("%f", &S5);
+	
+	Total = S1+S2+S3+S4+S5; //Formula for total 
+	
+	printf("Total marks are %f", Total);
+	
+	Percentage= Total/500 *100;
+	
+	printf(" \n The Final Percentage is %f", Percentage); //Displaying results
+	
+	return 0;
+	
+}
